@@ -1,0 +1,68 @@
+html{
+    scroll-behavior: smooth;
+}
+
+span{font-weight: bold;
+}
+
+main {font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background-color: pink;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hotpink;
+    padding: 1rem;
+}
+
+a{
+    font-family:'Times New Roman', Times, serif;
+}
+
+a, a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+a:active {
+    color: rgb(249, 187, 222);
+}
+
+
+h1,h2,p,h3 {padding-left: 1rem;}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    max-width:100%;
+}
+
+img.inka{display: block;       
+max-width: 40%;  
+
+object-fit: cover;   
+font-style: italic; 
+color: cornsilk;}
+
+img.logo{
+    display: block;
+    max-width: 10%;
+    object-fit: cover;
+    font-style: italic;
+    color: cornsilk;
+}
+
+iframe{
+    display: inline;
+    max-width: 10%;
+    
+}
