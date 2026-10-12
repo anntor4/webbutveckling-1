@@ -28,6 +28,7 @@ a{
 a, a:visited {
     color: whitesmoke;
     text-decoration: none;
+    
 
 }
 
@@ -48,10 +49,18 @@ ul {
 
 img.inka{display: block;       
 max-width: 40%;  
-
+border-radius: 15px;
+padding: 4px;
+box-shadow: 5px rgb(73, 22, 51);
 object-fit: cover;   
 font-style: italic; 
-color: cornsilk;}
+color: cornsilk;
+
+}
+
+img.inka:hover{
+    box-shadow: 0 0 2px 1px rgb(73, 22, 51);
+}
 
 img.logo{
     display: block;
@@ -61,8 +70,19 @@ img.logo{
     color: cornsilk;
 }
 
-iframe{
+img.tävling{
+    display: block;
+    max-width: 40%;
+    border-radius: 5%;
+    object-fit: cover;
+    font-style: italic;
+    color: cornsilk;
+}
+
+img{
     display: inline;
-    max-width: 10%;
-    
+    max-width: 50px;
+    object-fit: cover;
+    font-style: italic;
+    color: cornsilk;
 }
